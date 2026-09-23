@@ -7,8 +7,10 @@ import ThemeToggle from './ThemeToggle';
 
 const navItems = [
   { name: 'About', href: '#about' },
-  { name: 'Skills', href: '#skills' },
+  { name: 'Metrics', href: '#metrics' },
   { name: 'Projects', href: '#projects' },
+  { name: 'Skills', href: '#skills' },
+  { name: 'Timeline', href: '#education' },
   { name: 'Contact', href: '#contact' },
 ];
 
@@ -30,8 +32,8 @@ export default function Header() {
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${scrolled
-          ? 'glass-navbar py-4'
-          : 'bg-transparent py-6'
+        ? 'glass-navbar py-4'
+        : 'bg-transparent py-6'
         }`}
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
