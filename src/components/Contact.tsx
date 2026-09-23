@@ -87,15 +87,15 @@ export default function Contact() {
                   </div>
                 </a>
 
-                <div className="group flex items-center gap-6 p-6 rounded-3xl bento-card border-none bg-transparent shadow-none hover:shadow-none hover:border-none">
-                  <div className="p-4 rounded-2xl bg-zinc-100 dark:bg-zinc-800/50 text-zinc-500 dark:text-zinc-400">
+                <a href="https://www.google.com/maps/place/Gujarat,+India" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-6 p-6 rounded-3xl bento-card cursor-pointer hover:border-emerald-500/50">
+                  <div className="p-4 rounded-2xl bg-zinc-100 dark:bg-zinc-800 text-zinc-900 dark:text-white group-hover:bg-emerald-500 group-hover:text-white transition-colors">
                     <MapPin className="w-6 h-6" />
                   </div>
                   <div>
                     <h4 className="text-[10px] font-black text-zinc-500 uppercase tracking-[0.2em] mb-1">Coordinates</h4>
-                    <span className="text-sm font-bold text-zinc-600 dark:text-zinc-400">Gujarat, India</span>
+                    <span className="text-sm font-bold text-zinc-900 dark:text-white">Gujarat, India</span>
                   </div>
-                </div>
+                </a>
               </div>
             </div>
           </div>
